@@ -1,0 +1,651 @@
+CATHEDRAL
+A Sovereign Intelligence Utility
+
+A constitutional and technical proposal for decentralized civilian intelligence, personal continuity, competitive computation and intellectual autonomy.
+
+Author and architectural originator: Damien Reeka
+Proposed research steward: Cathedral Lab
+Version 1.1 | Revised research proposal | 27 November 2026
+Human-originated research programme; AI-assisted synthesis, drafting and critique.
+
+"The fog was expected. The pattern holds." - EVCON, Evolution of Consciousness
+
+AUTHORSHIP, ORIGIN AND RESEARCH METHOD
+
+Author and architectural originator: Damien Reeka.
+
+Cathedral emerged from an extended period of human–AI collaborative
+intellectual inquiry directed by Damien Reeka. The project developed through
+successive questions, contradictions, proposed resolutions and architectural
+decisions. The originator framed the problem, set its objectives, proposed
+and challenged architectural choices, and directed the evolution of the
+project. Earlier related work, including EVCON, Cathedral Lab and Gatekeeper,
+is reported by the originator; source histories and implementation claims
+remain subject to independent review.
+
+Artificial intelligence was used openly as an instrument of cognitive
+assistance, technical interrogation, synthesis, documentation and critique.
+ChatGPT assisted with the written exposition and technical formalization;
+DeepSeek provided subsequent AI-assisted critique. Other AI assistance in
+earlier work is reported by the originator. The tools also introduced
+candidate technical mechanisms and proposed evaluation methods. The paper
+therefore distinguishes human architectural origination and direction,
+collaborative development, AI-assisted document preparation, and
+independent scientific validation. It does not claim that the author
+personally composed every sentence or independently originated every
+technical mechanism.
+
+Scientific or engineering claims must be established by evidence, not by
+the authorship of the proposal. AI critique is not independent human peer
+review. This document is a research proposal, and additional human
+researchers should receive appropriate attribution for future contributions.
+
+MOTIVATION AND METHOD
+
+The originator's recurring problem is not a lack of ideas. It is the
+difficulty of retaining intellectual continuity when access to a model,
+a device or an opportunity to continue working ends. That experience drove a practical
+question: why should the history of a person's thinking belong to the
+provider of the intelligence rather than the person who generated it?
+
+A second question followed: if the underlying models are replaceable, why
+should the user's continuity be replaced when the model is replaced?
+
+A third arose from ordinary conversation. The loss of a laugh, a pause or
+a sarcastic remark in dictation can change the meaning of an entire exchange.
+The originator therefore proposed preserving observable speech events and
+labelling interpretation separately, rather than merely transcribing words.
+
+These are motivations and requirements, not measured experimental results.
+They explain why continuity, accessible communication and meaningful user
+control are central to this work. The proposed method is to identify a
+contradiction, examine it, record a provisional resolution and the reason for
+it, and test it. A person should be able to stop, resume later, or hand a
+well-specified problem to someone else without losing the intellectual
+context. The project is designed to support asynchronous participation.
+
+STATUS AND SCOPE
+
+This is a research and engineering proposal, not a claim that Cathedral is operating internationally, that its proposed security or economics have been demonstrated, or that Cathedral Lab is already an incorporated organization. The originator reports having developed personal continuity and response-review prototypes, Cathedral Lab and Gatekeeper, respectively. Their source code, licences and security properties require independent inspection before any capability is represented as verified.
+
+This paper invites scrutiny, independent implementation, research and collaboration. A companion master roadmap is under development; its evidence grades, decision register and implementation gates remain subject to review. The contribution record is not an assertion of independently proven priority. It proposes a civilian public-interest utility, not a political institution, investment offering, cryptocurrency launch, or undertaking to evade lawful requirements. No personal information, funds or resources are assumed to have been committed to the proposal.
+
+ABSTRACT
+
+Contemporary artificial intelligence offers substantial productive capability, but access frequently depends on concentrated model providers, proprietary accounts, centralised computing resources and pricing arrangements that may bind an individual's intellectual history to a commercial service. Increasing raw intelligence alone does not resolve these problems. Furthermore, the same technologies can be deployed for civilian benefit or for military weaponization, creating competing incentives that a civilian utility should address explicitly.
+
+Cathedral proposes a different architecture: an individual-controlled continuity layer, a model-independent intelligence orchestration engine, a decentralized market for verified computational work, privacy-preserving identity, independent assessment of responses, consumption-based pricing, and a non-transferable intelligence reward for useful computational contributions. Environmental responsibility and non-weaponization are incorporated into procurement. A publicly specified constitutional protocol constrains future governance. An independent research organization, Cathedral Lab, may contribute to implementation and protect the constitution through evidence and democratic participation, but cannot unilaterally govern Cathedral.
+
+The central research hypothesis is that the organization, verification, persistence and economical deployment of already available intelligence can produce substantial improvements in practical human utility without requiring continuous escalation of model scale. The paper specifies candidate mechanisms and measurable research questions. It does not presume that cryptography guarantees anonymity, that autonomous models are infallible, that decentralization prevents all capture, or that the proposed benefits have already been achieved.
+
+Keywords: personal sovereignty; continuity; decentralized inference; intelligence orchestration; verifiable computation; privacy; pay-per-use; intelligence rewards; environmental allocation; governance; civilian AI.
+
+CONTENTS
+
+1. Problem and architectural objectives
+2. Constitutional foundation
+3. Overall architecture and trust boundaries
+4. Sovereign identity, privacy and account recovery
+5. Personal continuity and the recursive epistemic refinery
+6. Intelligence orchestration and sufficiency
+7. Gatekeeper and the transparency layer
+8. Decentralized computation and verification
+9. Economics, consumption and intelligence rewards
+10. Planetary computation priority
+11. Civilian procurement and no weaponization
+12. Governance, upgrades and constitutional integrity
+13. Individual and institutional participation
+14. Security, responsibility and threat model
+15. Cathedral Lab and independent stewardship
+16. Implementation roadmap and evaluation
+17. Open research agenda and invitation
+18. Conclusion
+References
+
+1. Problem and architectural objectives
+
+Artificial intelligence increasingly mediates writing, research, learning, software development, institutional operations and everyday decision-making. The productive value of this intelligence is not inherently dependent on the individual having permanent allegiance to the organization that trained a model.
+
+Yet a user's account, communication history, personalization, documents, preferred model, pricing and execution environment may all be supplied by the same institution. This can make the cost of switching substantially greater than the cost of replacing the underlying model. The proposed architecture separates these functions.
+
+Cathedral responds to six structural risks. These are design concerns, not allegations that every existing provider engages in each practice.
+
+1. Concentration of intellectual infrastructure in a small number of suppliers.
+2. Loss, discontinuity or appropriation of personal intellectual records.
+3. Unnecessary expenditure on intelligence exceeding the requirements of a task.
+4. Dependence on a single cloud, model, identity or payment provider.
+5. Economic incentives for surveillance, engagement maximization or weaponization.
+6. Environmental costs that are insufficiently reflected in computational allocation.
+
+Cathedral is intended to operate as a public-interest utility accessible through modest consumer devices. It would organize existing commercially available and appropriately licensed independently hosted models, rather than require a new frontier model as its starting point.
+
+The term "sovereignty" in this paper refers to an individual's practical control over their own continuity, permissions, identity and intellectual participation. It is not a claim of exemption from applicable law.
+
+The goal is not to destroy competitors or prevent legitimate research. It is to establish a demonstrably competitive alternative that reduces dependency on any particular provider, thereby changing the incentives of suppliers through lawful competition.
+
+1.1. The method
+
+The architectural method is incremental: formulate a contradiction, identify the relevant requirements, propose a mechanism, scrutinize the mechanism, preserve what survives scrutiny, and move to the next contradiction. EVCON's formulation, "The fog was expected. The pattern holds.", describes proceeding through uncertainty without confusing an attractive hypothesis with a demonstrated result.
+
+2. Constitutional foundation
+
+The following articles define the identity of Cathedral. Operational rules and their technical implementations may be improved; the principles cannot be removed by an ordinary governance decision while preserving the claim to the same constitutional project. A fork that abandons a foundational principle must identify itself as a different constitutional project. No technical mechanism can prevent independent parties from developing a different system.
+
+Article 1. Civilian purpose and prohibition of weaponization
+
+Cathedral shall not knowingly facilitate the development, deployment or operation of weapons systems. It shall not offer preferential military access, arms-development contracts or autonomous lethal targeting services. Civilian and humanitarian activities must be distinguished from weaponization by published, independently reviewable criteria.
+
+Article 2. International neutrality
+
+Cathedral shall not be designed to advance the geopolitical dominance of one nation over another. Equivalent eligibility, safety and procurement rules shall apply across nationalities, subject to applicable lawful requirements and practical availability.
+
+Article 3. Individual sovereignty
+
+The individual shall control their own identity, personal information, permissions, intentional participation and authorized actions. An inferred digital representation shall not supersede the individual's present explicit instructions.
+
+Article 4. Inalienable and portable continuity
+
+Personal continuity shall remain under the individual's control and independent of particular intelligence models, devices, employers and suppliers. No provider shall obtain ownership of the individual's intellectual history by providing inference.
+
+Article 5. Privacy and non-extraction
+
+Personal continuity shall not automatically become training data, advertising material, institutional research material or a commercial dataset. Disclosure shall be purpose-limited and authorized. Collection and retention shall be minimized.
+
+Article 6. Decentralized authority
+
+No founder, government, financial contributor, model provider or computational supplier shall possess unilateral governing authority over Cathedral.
+
+Article 7. Economic transparency
+
+Charges shall reflect actual authorized consumption and disclosed sustainable operating costs. Mandatory subscriptions, concealed surcharges and covert commercial exploitation are excluded. Public-access subsidies must be explicit and independently accounted for.
+
+Article 8. Intelligence sufficiency
+
+Intelligence shall be allocated on verified suitability, safety, privacy, reliability, cost and performance for a task, rather than unnecessary scale, reputation or institutional loyalty.
+
+Article 9. Independence of essential infrastructure
+
+The architecture shall be designed to continue providing its core functions without any single external commercial intelligence or computational supplier. Degradation modes must be disclosed honestly.
+
+Article 10. Non-appropriation
+
+Cathedral shall not be transferable as a monopolistic commercial asset or become exclusively controllable by a private institution. Protocol participation and independent implementations shall remain possible under published, lawful rules.
+
+Article 11. Accountable development
+
+Proposed improvements shall be documented, scrutinized independently, subject to legitimate community participation and implemented through verifiable releases. The right to propose does not confer the right to deploy.
+
+Article 12. Human welfare and accessibility
+
+Cathedral shall prioritize beneficial civilian uses and meaningful access regardless of wealth, geography or technical sophistication. It shall preserve a usable text and audio representation of meaningful information; visual presentation must not be a prerequisite for comprehension. It shall not optimize for dependency, compulsive engagement or covert persuasion.
+
+Article 13. Planetary responsibility
+
+Cathedral shall seek to reduce environmental harm through measurable energy efficiency, responsible sourcing, computational sufficiency and diversity of suppliers. Environmental claims shall be independently verifiable.
+
+Article 14. Architectural integrity
+
+No modification shall become operational without proportionate technical documentation, independent security examination, demonstrated constitutional compatibility and appropriate release safeguards. A vote cannot substitute for security testing.
+
+3. Overall architecture and trust boundaries
+
+Cathedral is a composition of distinct functions. The design does not assume these functions must use the same infrastructure, operator or legal entity.
+
+1. Access layer. A lightweight application or web interface provides ordinary users with text, speech, search, document ingestion and user-controlled sharing. Expensive local hardware is not required for basic use.
+2. Identity and authorization layer. Holds user-controlled credentials, establishes personhood where required for governance, and distinguishes personal, professional and collaborative permissions.
+3. Sovereign continuity vault. Maintains encrypted primary records, indexes, user-editable memory and exportable backups.
+4. Recursive epistemic refinery. Incrementally integrates, qualifies, corrects and restructures derived knowledge.
+5. Privacy gateway. Retrieves necessary context, minimizes disclosure and enforces the individual's restrictions before any external processing.
+6. Intelligence orchestration engine. Selects suitable models and computational resources using transparent, configurable eligibility and performance rules.
+7. Gatekeeper. Independently evaluates outputs, identifies uncertainty and possible problematic influence, and attaches provenance and verification information.
+8. Computation and verification network. Independent suppliers execute eligible work; independent validators assess execution integrity.
+9. Settlement and rewards layer. Accounts for monetary payments, non-transferable intelligence credits, operating reserves and supplier compensation.
+10. Constitutional governance and release mechanism. Publishes proposed modifications, decisions, audits, reference specifications and approved release attestations.
+11. Stewardship and research ecosystem. Independent labs, scientists, engineers and volunteers improve and test the architecture without acquiring control over individual accounts.
+
+The processing sequence is intentionally simple: request; authorization; relevant local context retrieval; privacy examination; task and risk classification; provider selection; execution; output examination; delivery; user-authorized continuity update; settlement. A workload can be refused, deferred or executed locally if there is no eligible provider.
+
+3.1. Separation of control
+
+The party able to execute a calculation must not thereby gain access to the user's full continuity. The party able to verify completion must not thereby acquire voting power. The party able to develop code must not thereby gain authority to release it. The party funding the infrastructure must not thereby gain access to private accounts or unilateral governance.
+
+Public specifications and independently implementable interfaces are prerequisites for this objective. A privately developed consumer product may be launched as a finished application, but a permanently secret foundational protocol would undermine independent verification and survival without its founders.
+
+4. Sovereign identity, privacy and account recovery
+
+4.1. One individual, one sovereign identity
+
+The proposed rule is one sovereign identity per eligible individual, not one device, email address or employer. Multiple devices and independently permissioned workspaces can be associated with the same identity. Machine service credentials and organizational billing identities are distinct from sovereign personal identities and confer no additional personal votes.
+
+Personhood verification and unique enrolment are separate from ordinary authentication. A privacy-preserving credential can disclose eligibility without necessarily disclosing the individual's name. The W3C Verifiable Credentials Data Model [1] and research on personhood credentials [2] offer starting points. Neither alone guarantees globally unique identification, universal inclusion or resistance to impersonation.
+
+Research is required to support individuals without conventional identity documents, avoid unnecessary biometric collection, prevent duplicate governance credentials, protect account recovery and provide a fair dispute process. A single identity issuer or central identity database would create a dependency inconsistent with the objective. Eligibility for voting must be distinguishable from the ability to access basic civilian assistance.
+
+4.2. Confidentiality and minimum disclosure
+
+Stored personal records and backups should be encrypted using user-controlled keys. Communications should be authenticated and encrypted. Sensitive processing should occur locally or in independently evaluated confidential execution environments wherever practical. Hardware-assisted confidential computing is a relevant technique [3], but trust assumptions remain concerning hardware, firmware, attestation and software.
+
+A selected commercial API may require plaintext task information in its own execution environment. Removing names and account identifiers reduces disclosure, but cannot guarantee anonymity: dates, rare facts and contextual combinations can enable re-identification [4]. An external service may also observe its own API credentials, network metadata and workload characteristics.
+
+The privacy gateway therefore implements the following policy.
+
+1. Retrieve only content needed for the authorized task.
+2. Apply user-selected disclosure restrictions before sending information.
+3. Remove unnecessary direct identifiers and, where appropriate, reduce identifying combinations.
+4. Replace identifiers with temporary local references when doing so preserves the task.
+5. Prefer eligible local or confidential execution for sensitive information.
+6. Make material external disclosure visible through understandable permission controls.
+7. Reintegrate returned material locally; do not send the entire historical archive.
+
+Anonymity is an explicit research and threat-model objective, not a promise of complete untraceability. Provider eligibility includes documented data-handling practices and contractual and technical controls where available.
+
+4.3. Portable recovery
+
+Cathedral Lab's reported personal backup pattern inspires a portable continuity format. The application should maintain validated, encrypted snapshots and an incremental change journal at the individual's chosen storage location.
+
+An individual can duplicate backups to another independent device or storage medium, export and restore continuity into a new installation, and choose an optional recovery arrangement. Recovery credentials may themselves be backed up under the individual's chosen protection. Threshold recovery through separately designated trusted parties may be offered, but cannot be compulsory or give a central custodian automatic access.
+
+Every backup must have integrity verification, documented version compatibility and a tested restoration path. Loss of all valid copies and all recovery credentials cannot be guaranteed recoverable. Cathedral must state that trade-off plainly.
+
+5. Personal continuity and the recursive epistemic refinery
+
+Continuity is not a provider's rolling chat history. It is a portable intellectual record governed by the individual. It must maintain the distinction between what occurred, what was said, what was believed, what was inferred and what is supported by evidence.
+
+5.1. Three knowledge bodies
+
+1. Historical continuity records original communications, permitted audio, uploaded documents, decisions and relevant timestamps. The record can be protected against undetected modification while remaining subject to the individual's right to delete or export their information.
+2. Epistemic continuity maintains derived claims, evidence, source references, uncertainty and temporal applicability. It can mark a claim as supported, disputed, unverified, superseded or outdated.
+3. Personal continuity maintains preferences, vocabulary, project context, explicit instructions and an editable representation of the individual's current intellectual environment. It is a computational representation, not a complete or authoritative description of a human being.
+
+The "Build My Digital Self" and character-specific retrieval concepts described by the originator are possible implementation starting points. The proposed architecture supports accessible document ingestion, retrieval by permission and purpose, and agent-specific context packages. Embeddings and semantic indexes are derivatives of the individual's material and require privacy protections comparable to those of the source.
+
+5.2. Incremental recursive continuity
+
+The refinery should process changes rather than repeatedly reprocess an individual's entire history. Its proposed cycle is observation, comparison, integration, correction and consolidation. Each derived entry should record its source, time, provenance, confidence category and revision relationship.
+
+Correction must not falsify historical records. An individual's earlier statement may be preserved as an earlier statement while an updated representation treats its content as superseded. Repetition is not verification. Artificial-intelligence outputs must not automatically become established knowledge merely because they enter the continuity record.
+
+The system must support bounded background maintenance, disclosed costs, local processing where practical and user-authorized scheduling. It shall not autonomously invent missions, define the person's priorities or create a covert hierarchy of personal importance.
+
+5.3. The sovereign memory editor
+
+The individual must be able to inspect, add, correct, remove, reorganize and selectively protect records and derived knowledge. They must be able to disable personalization, correct false inferences, override historical preferences, choose disclosure permissions and reconstruct the derived memory body.
+
+A deletion procedure must address indexes, caches and controlled copies, not merely hide an item from view. Independent recipient copies and prior authorized exports cannot always be recalled; interfaces must explain that limit.
+
+Accumulation of knowledge does not constitute consent to collective appropriation. Publication, collaboration or contribution to research must remain a separate deliberate action. Cathedral shall not automatically aggregate private continuity into a population-wide training dataset.
+
+6. Intelligence orchestration and sufficiency
+
+The orchestration engine selects the minimum sufficient intelligence for a task. Its purpose is not to maximize model size, inference expenditure or benchmark prestige.
+
+Routing and cascading research already demonstrates the possibility of improving cost-performance trade-offs under particular tested conditions. RouteLLM [5] and FrugalGPT [6] provide relevant precedents. Their experimental results are not evidence that Cathedral will achieve equivalent savings.
+
+6.1. Eligibility before optimization
+
+For each task, the engine first establishes eligible candidates. A candidate must satisfy the applicable safety, civilian procurement, licensing, privacy, authorization, capability and reliability requirements. If it does not, a lower price cannot make it eligible.
+
+Within the eligible set, the proposed objective is to minimize the expected total cost of successfully completing the task.
+
+Let C denote expected total cost: inference, computation, communication, verification, retries and attributable operating expenditure.
+
+Let Q denote an independently estimated probability of satisfying task-specific quality criteria, rather than an uncalibrated self-report of model confidence.
+
+Let E denote attributable environmental impact and L denote expected latency.
+
+A provisional objective is to minimize C + aE + bL, subject to Q meeting a defined minimum and all mandatory eligibility conditions. Coefficients a and b express disclosed policy and user cost-performance preferences. Units, calibration, uncertainty and trade-offs must be specified and independently tested. A user's authorized expenditure limit is a hard constraint, not a suggestion.
+
+If no candidate meets the requirements, the system should disclose that fact rather than manufacture confidence or circumvent a legitimate safeguard.
+
+6.2. Performance measurement
+
+Evaluation must use representative real tasks, not only public leaderboards. For example: document extraction with known ground truth; code tasks with tests; calculations checked by deterministic software; evidence-based research with independently evaluated citations; and long-running workflows with interruption and recovery.
+
+The market should record cost per accepted result, verified error rates, retry rates, latency, availability, calibration and security or privacy incidents. Evaluation workloads must be designed to resist cherry-picking, gaming and coordination among suppliers.
+
+Models from commercial providers may contribute through authorized APIs. Appropriately licensed independently hosted models provide the minimum viable independent foundation. DeepSeek-R1, for example, documents an MIT licence for its original code and weights while identifying separate underlying terms for some derived models [7]. Every candidate requires individual licence and suitability review; "open weights" must not be assumed to mean unrestricted open-source use.
+
+7. Gatekeeper and the transparency layer
+
+Gatekeeper is a proposed independent response-assessment function, inspired by the originator's reported existing prototype. It is not an authority over an individual's beliefs and cannot establish truth simply by asserting that it has done so.
+
+7.1. Response integrity
+
+The system should distinguish verified production facts from inferred behavioural characteristics. Example text-only annotations include:
+
+1. Personalization: previously authorized communication preferences were supplied.
+2. Evidence: the conclusion cites identified sources; the strength of evidence is separately assessed.
+3. Uncertainty: available information does not establish a definitive conclusion.
+4. Possible over-agreement: the response appears to affirm an assertion without adequate supporting evidence.
+5. Assumption: a stated conclusion depends on an unverified premise.
+6. Context: selected portions of the individual's continuity were used.
+7. Verification: identified checks were performed, with limitations disclosed.
+8. Unknown: the external model's internal causal process is not available or has not been independently established.
+
+The underlying principle is: personalize communication, not truth. The system must not quietly adjust factual conclusions to agree with an individual. Research documents the tendency of model feedback to promote sycophancy [8]; model-generated explanations of reasoning may also fail to disclose true causal influence [9]. Thus an annotation should not assert that a model had a deliberate motive or disclose invented internal reasoning.
+
+7.2. Independent review and proportionality
+
+The model producing an answer should not be the sole judge of its quality. Gatekeeper can use deterministic rules, independent models, retrieval, source checks, domain-specific validation and human review where appropriate. For ordinary conversation, lightweight review may suffice; high-consequence or highly uncertain requests should trigger stronger checks, additional authorization or appropriately qualified assistance.
+
+The individual should be able to inspect, dispute or disable discretionary personalization assessments. The interface should preserve the distinction between a generated response and a subsequent correction instead of silently rewriting legitimate disagreement. Mandatory safety and authorization controls remain separate from optional stylistic review.
+
+The system should not require expensive double generation for every ordinary request. The economic and accuracy gains from selective review must be benchmarked against its potential false positives, false negatives and added cost.
+
+8. Decentralized computation and verification
+
+Cathedral separates ownership of computation from control of intelligence. Independent individuals, universities, small operators and larger data centres may opt into a common protocol and receive compensation for verified work.
+
+8.1. Compute marketplace
+
+Suppliers declare supported hardware, available capacity, resource price, service availability, environmental measurements and attestable security properties. The scheduler assigns tasks according to the authorized requirements and the allocation objective. A supplier need not ordinarily see the individual's identity or entire continuity.
+
+A workload may run entirely on a suitable node, within a connected regional cluster, or across geographically distributed nodes where measured networking costs justify partitioning. The Petals research system establishes a precedent for running large model inference across geographically distributed computing devices [10]. It does not establish that every workload can be distributed economically or privately. Latency, bandwidth, hardware variability, interruption and trust boundaries must be measured.
+
+8.2. Useful work and verifiability
+
+Execution integrity and intellectual correctness are different problems.
+
+Execution integrity asks whether a specified computation was performed correctly, using an authorized model version and prescribed parameters. Intellectual correctness asks whether the resulting answer is supported by evidence and suitable for its task.
+
+Candidate execution checks include authenticated task and result receipts, hardware attestation, independent replication, randomized auditing, cryptographic proofs where practical, and adjudication of disputed results. Research such as VeriLLM [11] explores verifiable decentralized inference under explicit assumptions; Cathedral must independently validate the suitability and overhead of selected mechanisms.
+
+No reward should be issued solely because a node claims to have consumed GPU time. Accepted useful work must be measured objectively enough that artificial workloads, duplicate submissions and collusive validation do not become profitable.
+
+8.3. Consensus and resilience
+
+Bitcoin [12] provides a precedent for a distributed settlement history maintained through cryptographic verification and assumptions about participant control. Its majority-hash-power protection does not establish universal immunity to attack. A valid transaction history is not proof that every off-chain calculation, identity or factual claim is correct.
+
+Cathedral does not require a speculative cryptocurrency. It may employ a distributed ledger or other replicated, authenticated settlement mechanism where justified. The ledger should record necessary proofs, aggregate accounting and authorized governance decisions, not private personal conversations.
+
+The design must separately address Sybil attacks, compromised operators, network partitions, outages, denial of service, validator collusion and concentration of underlying ownership. A single "51 percent rule" is insufficient. The security model must specify the adversarial threshold for each distinct protocol, the assumptions behind it and the consequences if they fail. Computational power shall not automatically confer governance power.
+
+9. Economics, consumption and intelligence rewards
+
+Cathedral's financial objective is sustainable, transparent provision of intelligence at the lowest valid total cost, not maximization of consumer lock-in or speculative asset value.
+
+9.1. Pay for actual consumption
+
+An individual is charged for authorized inference, computation, storage, verification and disclosed operating expenditure. The rate and estimated task cost should be available before execution where practical; usage receipts provide reconciliation afterwards.
+
+There is no compulsory subscription. Charges can be accumulated and settled periodically to reduce transaction overhead. Price transparency includes the chosen model, consumed resource quantities where measurable, applicable overhead, relevant subsidies and the reason for a route selection. A spending limit prevents unapproved escalation. Individuals should be able to stop, pause or change the budget.
+
+Flat-rate subscriptions may offer value through predictable expenditure; the proposal chooses metered consumption to avoid mandatory cross-subsidy between light and heavy users. A subsidy for individuals who cannot afford access is a separate public-interest program, paid from specifically identified donations, grants or voluntary resource contributions.
+
+9.2. Two compensation paths
+
+1. Monetary suppliers receive agreed payment in supported currencies for independently verified useful work. Commercial providers may need this path to pay for energy, hardware, personnel and operations.
+2. Intelligence reward contributors may elect to receive non-transferable credits redeemable for their own authorized intelligence consumption. Credits belong to the individual's sovereign identity and cannot be sold, traded, gifted, inherited as financial assets or converted into additional voting power.
+
+The second path introduces the principle of Intelligence Reward Mining: provision of useful computational resources in exchange for access to intellectual resources. It differs fundamentally from creating a speculative currency or performing computation solely to secure a financial ledger.
+
+9.3. A provisional accounting model
+
+Define V as the agreed monetary equivalent of accepted useful computational work, based on competitively determined prices and measured reliability. Define A as the fraction of that value elected as intelligence credits, between zero and one.
+
+Cash compensation is (1 - A) times V. Credit issuance is A times V, expressed as a redeemable service entitlement at a disclosed conversion rule. A provider may be rewarded for verified clean and reliable work through allocation preference or explicit funded bonuses rather than arbitrary creation of credit.
+
+The system must account for credit redemption as an obligation. In simple terms, an independently audited reserve must be sufficient to cover estimated future redemption costs, monetary liabilities, infrastructure expenses and a defined risk buffer. Issued credits cannot be financed merely by issuing further credits. Credited and cash-compensated work must not be counted twice.
+
+Illustration: a paying customer purchases verified work for USD 11. If USD 10 is due to the contributor and USD 1 represents disclosed operating expenses, a contributor electing credits could receive a USD 10 service entitlement backed by the reserved proceeds. The numbers are hypothetical. The real conversion, reserve ratio, liquidity, pricing and credit expiration policies need economic modeling and stress tests.
+
+Where verified computational contribution is donated without a paying customer, credit redemption must be backed by a separate funded subsidy or a demonstrably available resource commitment. Credits are not inherently costless.
+
+9.4. Bootstrap and sustainable public access
+
+A reference implementation begins with a bounded group of suppliers and users, a transparent operational budget, independent model hosting and controlled evaluation. It does not require worldwide deployment at launch. The architecture must demonstrate financial viability before expanding free or subsidized allowances. Grants support research and defined access programs; they do not confer governance privileges.
+
+At hypothetical scale, one million users performing ten tasks each daily at USD 0.005 per task would require USD 50,000 daily before any unmodeled overhead. This is arithmetic, not a cost forecast. It illustrates why sustained demand, resource measurement and operating reserves must precede promises of limitless free intelligence.
+
+10. Planetary computation priority
+
+Cathedral incorporates environmental responsibility directly into workload allocation. The intent is to make lower environmental impact economically rewarding, not to rely exclusively on corporate pledges.
+
+Eligible suppliers may use solar, wind, responsibly sourced hydroelectricity, surplus clean energy, captured waste energy or existing underutilized hardware. Captured gas is not inherently green; its net effect depends on the realistic alternative, methane leakage, lifecycle emissions and whether its use induces additional fossil fuel production. Water, ecological impacts and local electricity capacity must also be considered.
+
+A candidate environmental measurement expresses emissions per verified useful task, not simply per GPU-hour. It should account for energy consumed, regional and time-dependent electricity emissions, relevant hardware manufacturing allocation, material cooling and water impacts, and measured completion reliability. The Software Carbon Intensity specification [13] and GHG Protocol electricity accounting guidance [14] provide starting points, but neither automatically verifies a supplier's claimed environmental status.
+
+Where safety, reliability, affordability and service requirements permit, lower-impact eligible providers receive more workload opportunities. Diversity and independence of actual controlling owners are separately assessed. Small providers are not inherently greener, and a large cluster can sometimes perform work with lower total environmental impact. The mechanism should avoid encouraging unnecessary hardware production or disguised fragmentation of large institutions into nominally independent nodes.
+
+Environmental claims require auditable evidence, standardized measurement, periodic reassessment and consequences for deliberate misrepresentation. Environmental preference must not silently override a user's expenditure limit or required task quality.
+
+11. Civilian procurement and no weaponization
+
+The constitution establishes non-weaponization as an eligibility rule, not an aspiration subordinated to price. Cathedral shall not knowingly provide direct support for developing, deploying or operating weapons systems. The policy applies regardless of the nation or organization involved.
+
+Supplier procurement should distinguish documented participation in prohibited activities from mere nationality, public rumor or ordinary dual-use civilian research. Where the published criteria establish a violation, a provider may receive lower eligibility or become ineligible under the defined rules. Decisions require evidence, independent review, transparent reasons, proportionate safeguards and a correction or appeal process.
+
+The orchestration mechanism must not compensate for a prohibited request by searching for a less restrictive model or fragmenting the request across providers. Model-level safety training is helpful but does not eliminate the responsibility of the combined system. NIST's generative AI risk management guidance specifically addresses third-party integration and risk assessment [15].
+
+Privacy from suppliers is compatible with narrowly scoped safeguards and authorization controls. It is not a promise of unaccountable anonymous access to dangerous capabilities.
+
+This procurement model cannot, by itself, stop national military programs or independent providers. Its testable purpose is to direct Cathedral's own demand towards beneficial civilian technology. A large market might influence supplier incentives; the size and effects of that influence are empirical questions.
+
+12. Governance, upgrades and constitutional integrity
+
+12.1. Participation without institutional capture
+
+Registered developers, scientists, volunteers and independent labs may propose improvements. Eligible individual participants may vote anonymously on published operational proposals. Developers shall not implement changes solely because they proposed them; funders and suppliers shall not obtain additional votes by expenditure or hardware ownership.
+
+Privacy-preserving credentials should establish one eligible vote per person while avoiding unnecessary disclosure of identity. The threat model must address duplicate credentials, purchased accounts, coercion, collusion and exclusion. Results and audit evidence should be public in forms that do not disclose individual votes.
+
+For operational prioritization, an experimentally evaluated bounded participation weight may be considered. A possible illustrative range is one to two, with diminishing increments based on consistent engagement over time rather than spending alone. The cap, eligibility window, fairness effects and resistance to manipulation require formal validation. No consumption-based weighting may reduce the constitutional rights of any individual or enable the alteration of protected principles.
+
+12.2. Proposal, verification and deployment
+
+Every significant upgrade requires a public technical proposal or white paper explaining the problem, rationale, mechanism, safety assumptions, economic and environmental implications, constitutional compatibility, expected benefits, known limitations, reproducible tests and migration or recovery plan.
+
+Separate functions must evaluate desirability, independently assess technical and security consequences, authorize release and verify the actual distributed artifact. In particular, a community vote is not proof of code safety.
+
+Review may include independent frontier-model scrutiny, qualified human security analysis, code scanning, reproducible builds, signed provenance, isolated testing and staged deployment. NIST's Secure Software Development Framework [16] and SLSA build-provenance specification [17] provide relevant practices. The review process must not upload private continuity into public test systems.
+
+Emergency security measures need narrowly limited authority, time constraints, documented rationale and independent retrospective review. They should isolate or disable compromised components rather than grant an undisclosed permanent administrative override. Updates should be reversible or compatible where feasible. Reversal cannot undo an already completed disclosure, so prevention remains essential.
+
+Bitcoin's proposal and voluntary adoption process is a useful governance precedent [18], but is not equivalent to a global anonymous one-person-one-vote system. Cathedral needs a distinct mechanism, supported by explicit security and governance assumptions.
+
+13. Individual and institutional participation
+
+13.1. The lifelong personal intelligence
+
+The proposed consumer experience is one individual-controlled identity and one portable continuity across models, devices, work, education and personal projects. The product's intended value is practical continuity and intellectual assistance, not a promise of perfect knowledge of the individual, psychological dependency or permanent commercial operation.
+
+The individual can choose how and when to interact. The system should support accessible text, audio and meaningful explanations rather than require advanced hardware or technical knowledge.
+
+13.2. Businesses purchase resources, not identities
+
+An employer may sponsor authorized business-related consumption for participating sovereign individuals. It does not purchase or own their personal accounts. Professional workspaces, access-control groups, service credentials and budgets must be distinct from an individual's private records.
+
+When a person leaves an organization, sponsorship and authorized access to organizational systems can end without terminating personal continuity. Shared business materials must be governed by clear permissions and agreed ownership or retention arrangements, rather than silently appropriating an employee's entire intellectual history. Applicable legal obligations and rights require jurisdiction-specific consideration.
+
+13.3. Voluntary sharing and future devices
+
+Users may deliberately share a selected knowledge object or encrypted package with an authorized recipient or group. The receiving party's access, provenance and retention expectations should be specified. Revocation cannot guarantee deletion of copies already legitimately received.
+
+A future low-cost wearable or dedicated personal device could implement authorized recording, local retrieval, connectivity and encrypted continuity synchronization. Recording must remain controllable, with visible or otherwise meaningful indicators and protections for bystander privacy, consent and applicable law. The device is optional and replaceable; the architecture must not depend on proprietary hardware.
+
+14. Security, responsibility and threat model
+
+The architecture must remain honest about failure. Cathedral can make mistakes; consequential information must be independently verified. That limitation does not absolve the infrastructure from designing secure storage, correct accounting, authorized execution and effective incident response.
+
+For legal, financial and medical matters, Gatekeeper should identify the consequential nature of the request and communicate the limits of intelligence assistance. Verification and appropriate qualified human oversight should be proportionate to the stakes. An intelligence is not automatically a qualified professional, and an informational disclaimer is not a substitute for safe execution or compliance with applicable responsibilities.
+
+14.1. Security objectives and tests
+
+1. Data confidentiality. Test attempted leakage, re-identification, compromised suppliers, credential loss and unintended disclosure. Keep sensitive continuity out of public consensus data.
+2. Integrity. Test tampered records, malicious computation, data poisoning, false evidence, compromised updates and unauthorized configuration changes.
+3. Availability. Test supplier withdrawal, outages, network partitions, loss of a lab, restoration from backups and degraded-mode operation.
+4. Sovereign authorization. Test unauthorized actions, prompt injection from retrieved documents, privilege escalation and cross-workspace disclosure.
+5. Economic integrity. Test duplicate rewards, artificial workloads, fraudulent environmental claims, price manipulation and supplier concentration.
+6. Governance integrity. Test manufactured identities, coercion, conflicts of interest, coordinated voting and software supply-chain compromise.
+7. Information integrity. Test factual error, ungrounded confidence, over-agreement, misleading framing, evaluation bias and unintended reinforcement of incorrect memories.
+
+No single test demonstrates absolute safety. Protection must be evaluated under stated assumptions, and incident response must include containment, preservation of relevant authorized evidence, independent investigation, notification where appropriate, remediation and review of the underlying cause.
+
+15. Cathedral Lab and independent stewardship
+
+Cathedral Lab is proposed as a voluntary research, engineering and stewardship organization distinct from the international Cathedral utility.
+
+Its purpose is to maintain an independently testable reference implementation; develop research proposals; operate test environments using authorized or synthetic data; examine proposed modifications; investigate vulnerabilities; promote constitutional compatibility through published scientific work; and invite participation from independent mathematicians, scientists, engineers and volunteers.
+
+The originator may establish and lead Cathedral Lab as a separately governed organization. Such a position does not confer exclusive authority over Cathedral, its users, deployment or constitutional decisions. Alternative laboratories must be able to reproduce, review and challenge its work. The network must remain capable of operating independently of Cathedral Lab and its originator.
+
+Cathedral Lab may seek transparent research grants, philanthropic contributions and other lawful funding, subject to clear conflict-of-interest and governance rules. Grants do not buy private continuity, preferential policy or unilateral network control. No assumption is made that funding is secured, that participants will work without compensation, or that an individual must personally fund network operations.
+
+The role is stewardship, not self-sacrifice: a sustainable research institution should preserve both the public-interest project and the wellbeing of its contributors.
+
+16. Implementation roadmap and evaluation
+
+The proposal should proceed through measurable stages, not through claims of inevitable worldwide adoption. Each stage must have defined acceptance criteria and a defensible operating budget.
+
+16.1. Stage 1 - Protocol and personal prototype
+
+Publish the constitutional charter, normative interfaces, initial threat model, portable continuity format and independently reproducible demonstrations. Review the existing Cathedral Lab and Gatekeeper implementations and exact licences before relying on them. Demonstrate that a user restores continuity on a new device and replaces a model provider without losing authorized context.
+
+Metrics: restoration integrity, export completeness, retrieval accuracy, privacy disclosure, memory correction and ordinary-device usability.
+
+16.2. Stage 2 - Independent routing and Gatekeeper
+
+Integrate a small eligible set of independently hosted and authorized commercial models. Establish an auditable evaluation suite for representative tasks. Test model switching, provider withdrawal, appropriate privacy routing, budget caps, response provenance and independent Gatekeeper assessment.
+
+Metrics: cost per accepted task, task success, unnecessary refusals, factual error, verification overhead, latency, false-positive annotations and cumulative disclosure risk. Report results against single-model and simpler routing baselines.
+
+16.3. Stage 3 - Compute and settlement pilot
+
+Recruit a limited set of independently controlled suppliers. Implement task receipts, verification, interruption recovery, environmental reporting and monetary compensation. Introduce non-transferable credit trials only when issuance and redemption obligations are demonstrably funded.
+
+Metrics: verified work completion, payment reconciliation, fraudulent contribution detection, utilization, supplier concentration, energy and emissions per useful task, and reserve adequacy under stress.
+
+16.4. Stage 4 - Governance and security pilot
+
+Experiment with privacy-preserving personhood credentials, operational voting and independent release verification. Invite external security researchers and test the effect of compromised contributors, false environmental reports, disputed identity credentials and unauthorized upgrade attempts.
+
+Metrics: eligibility accuracy, privacy breaches, inclusion barriers, governance capture resistance, update reproducibility, incident containment and recoverability.
+
+16.5. Stage 5 - Controlled public release
+
+Release a usable, affordable consumer product providing portable continuity, model-independent access and transparent charges. Publish independently evaluated outcomes, known limitations, financial disclosures, accessibility reviews and governance records. Expand only as operational capacity, safeguards and funding justify it.
+
+16.6. What would falsify the proposition?
+
+Cathedral must be willing to revise or abandon mechanisms that fail independent tests. Examples include persistent inability to prevent unacceptable disclosure; no demonstrated cost-performance advantage despite greater complexity; unreliable restoration; unsustainable credit obligations; governance capture; environmental impact greater than credible alternatives; or unacceptable failure rates in consequential workflows.
+
+An attractive idea is not a substitute for evidence. The desired public benefit determines the objective; evidence determines whether the architecture is meeting it.
+
+17. Open research agenda and invitation
+
+The remaining contradictions are not concealed. They define the research program.
+
+1. Anonymous uniqueness: develop privacy-preserving, inclusive personhood and duplicate-resistance mechanisms without a single indispensable identity issuer.
+2. Private continuity: establish portable encrypted storage, reproducible recovery and reliable deletion of controlled derivatives.
+3. Epistemic integrity: distinguish historical statements, independently supported knowledge, present preferences and uncertain inference without profiling individuals against their will.
+4. Adaptive routing: calibrate task-specific quality, privacy, cost, latency and environmental trade-offs, with independent evaluation against simpler alternatives.
+5. Confidential distributed inference: assess data exposure, hardware trust assumptions, verification cost and time-sensitive partitioning.
+6. Useful-work economics: prove that verified contributions cannot be profitably fabricated, duplicated or rewarded twice; establish a sustainable redemption reserve.
+7. Environmental allocation: verify real lifecycle impact and controlling ownership without encouraging greenwashing or wasteful expansion.
+8. Constitutional governance: investigate privacy-preserving voting, bounded operational participation weights, anti-capture mechanisms and evidence-based adjudication.
+9. Safe updates: develop independent build and release verification, proportionate scientific documentation and safe incident response.
+10. Civilian eligibility: develop precise evidence-based inclusion and exclusion criteria that protect users, avoid nationality-based discrimination and withstand dispute.
+11. Behavioural transparency: validate the accuracy and usefulness of response annotations while avoiding invented explanations or coercive interpretation.
+12. Accessibility and deployment: design intuitive inexpensive-device interfaces, complete audio-readable responses, inclusive registration and practical consent controls.
+13. Economic and institutional structure: establish lawful, durable payment, operating reserves, research stewardship, responsibility allocation and public-access funding without selling governance or users' continuity.
+
+The intended community includes engineers, mathematicians, security researchers, economists, cryptographers, environmental scientists, accessibility specialists and people who depend on intelligence in everyday life. Independent criticism is a contribution to the project. No researcher is required to accept an unproven proposition as a condition of participating.
+
+18. Conclusion
+
+Cathedral begins from a simple distinction: intelligence providers need not own the relationship between an individual and intelligence.
+
+By separating continuity, computation, model selection, verification, governance and economic settlement, the proposal seeks to make each layer independently contestable and replaceable. The individual retains their intellectual history. Models compete to provide sufficient, reliable intelligence. Computational suppliers compete to provide verified work. Environmental performance and civilian eligibility influence allocation. A non-transferable intelligence reward may let participants exchange useful computation for intellectual access. The constitutional framework constrains the mechanisms that evolve over time.
+
+This architecture will succeed only to the extent that its benefits can be demonstrated, its risks addressed, its costs sustained and its principles protected in practice.
+
+Nothing here asks the reader to believe that the fog has disappeared.
+
+The next step is independent scientific and engineering scrutiny.
+
+The fog was expected. The pattern holds.
+
+EDITORIAL VERSION NOTE
+
+This edition consolidates authorship and provenance clarification and the
+bibliographic audit into the first public revision of the architectural
+proposal. The fourteen constitutional articles and numbered technical
+sections are preserved. This revision introduces no experimental results,
+independent peer review or claim of deployment. The related research
+roadmap and implementation records are separate working materials.
+Reference metadata and relevance were checked against original-source
+records on 27 November 2026. Changes to proposed mechanisms must be
+recorded, tested and evaluated independently.
+
+
+References
+
+The following sources establish relevant technical precedents and limitations. They do not validate the combined Cathedral architecture. References to Cathedral Lab and Gatekeeper implementations in this paper describe the originator's account; no independent code audit was conducted for this draft.
+
+[1] World Wide Web Consortium (W3C). Verifiable Credentials Data Model v2.0. Recommendation, 15 May 2025. https://www.w3.org/TR/vc-data-model-2.0/
+
+[2] S. Adler et al. Personhood credentials: Artificial intelligence and the value of privacy-preserving tools to distinguish who is real online. Research preprint, 2024. https://arxiv.org/abs/2408.07892
+
+[3] NVIDIA. Trust and Threat Model: NVIDIA Confidential Computing. Technical documentation. https://docs.nvidia.com/confidential-computing/virtual-machines/threat-model
+
+[4] S. Garfinkel, B. Guttman, J. Near, A. Dajani and S. Singer. De-Identifying Government Datasets: Techniques and Governance. NIST SP 800-188, 2023. https://csrc.nist.gov/pubs/sp/800/188/final
+
+[5] I. Ong et al. RouteLLM: Learning to Route LLMs with Preference Data. Research preprint, 2024. https://arxiv.org/abs/2406.18665
+
+[6] L. Chen, M. Zaharia and J. Zou. FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance. Research preprint, 2023. https://arxiv.org/abs/2305.05176
+
+[7] DeepSeek-AI. DeepSeek-R1: model repository and licensing information, 2025. https://github.com/deepseek-ai/DeepSeek-R1
+
+[8] M. Sharma et al. Towards Understanding Sycophancy in Language Models. Research preprint, 2023. https://arxiv.org/abs/2310.13548
+
+[9] M. Turpin, J. Michael, E. Perez and S. R. Bowman. Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting. Research preprint, 2023. https://arxiv.org/abs/2305.04388
+
+[10] A. Borzunov et al. Distributed Inference and Fine-tuning of Large Language Models Over the Internet. NeurIPS 2023; arXiv version, 2023. https://arxiv.org/abs/2312.08361
+
+[11] K. Wang et al. VeriLLM: A Lightweight Framework for Publicly Verifiable Decentralized Inference. Research preprint, submitted 29 September 2025; v4 revised 22 January 2026. https://arxiv.org/abs/2509.24257v4
+
+[12] S. Nakamoto. Bitcoin: A Peer-to-Peer Electronic Cash System. 2008. https://bitcoin.org/bitcoin.pdf
+
+[13] Green Software Foundation. Software Carbon Intensity (SCI) Specification, version 1.1.0 at audit. https://sci.greensoftware.foundation/
+
+[14] Greenhouse Gas Protocol. Scope 2 Guidance. https://ghgprotocol.org/scope-2-guidance
+
+[15] NIST. Artificial Intelligence Risk Management Framework: Generative Artificial Intelligence Profile. NIST AI 600-1, 2024. https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence
+
+[16] M. Souppaya, K. Scarfone and D. Dodson. Secure Software Development Framework (SSDF), Version 1.1. NIST SP 800-218, 2022. https://csrc.nist.gov/pubs/sp/800/218/final
+
+[17] Supply-chain Levels for Software Artifacts (SLSA). Build: Provenance, specification v1.2. https://slsa.dev/spec/v1.2/build-provenance
+
+[18] Bitcoin Improvement Proposals. BIP process and repository. https://github.com/bitcoin/bips
+
+
+REFERENCE AUDIT — WHITE PAPER (27 NOVEMBER 2026, SYDNEY)
+[1] Official W3C Recommendation, 15 May 2025, checked.
+[2] Original arXiv record: Adler et al., submitted 15 Aug 2024, v4 17 Jan 2025.
+[3] Official NVIDIA confidential-VM Trust and Threat Model page, v1.0.0, checked.
+[4] Official NIST SP 800-188 title, author list and Sep 2023 date checked.
+[5] Original RouteLLM record: Ong et al., submitted 26 Jun 2024, v4 23 Feb 2025.
+[6] Original FrugalGPT record: Chen, Zaharia and Zou, submitted 9 May 2023.
+[7] Official DeepSeek-R1 repository licence section identifies MIT for repository
+    and model weights and upstream licences for derived Qwen and Llama models.
+    Exact checkpoint rights require review before use; DeepSeek-R1 is not
+    claimed to be the same as the AI reviewer that supplied editorial feedback.
+[8] Original Sharma et al. record: submitted 20 Oct 2023, v4 10 May 2025.
+[9] Original Turpin, Michael, Perez and Bowman record: submitted 7 May 2023,
+    v2 9 Dec 2023; NeurIPS 2023. The cited author order is confirmed.
+[10] Original Borzunov et al. record: submitted 13 Dec 2023; NeurIPS 2023.
+[11] Original VeriLLM record: title and Ke Wang et al. confirmed; pin v4.
+    The reported protocol is not a general proof of useful-work verification.
+[12] Original Bitcoin paper, author and title checked; consensus assumptions
+    are specific to the protocol, not general inference correctness.
+[13] Official Software Carbon Intensity specification, v1.1.0, checked.
+[14] Official GHG Protocol Scope 2 Guidance checked.
+[15] Official NIST AI 600-1 publication page confirms report and July 2024 date.
+[16] Official NIST SSDF v1.1, SP 800-218, February 2022, checked.
+[17] Official SLSA v1.2 build provenance specification, approved status, checked.
+[18] Official Bitcoin Improvement Proposals repository and contribution guidance checked.
+
+All 18 external entries were located in original-source records. The audit
+does not establish that all research conclusions are correct, that all
+preprints were peer reviewed, or that Cathedral has implemented them.
+Publication metadata and implementation claims are distinct from the cited external literature.

@@ -1,6 +1,21 @@
 # CATHEDRAL
 ## A Sovereign Intelligence Utility
+Latest publication — Version 1.1
+Cathedral: A Sovereign Intelligence Utility
 
+Author and architectural originator: Damien Reeka.
+
+Published: 27 November 2026.
+
+Official scientific archive: https://doi.org/10.5281/zenodo.24571044
+
+Version 1.1 clarifies architectural authorship, AI-assisted research methodology and bibliographic references. The foundational constitution and technical proposals remain preserved.
+
+Cathedral invites independent scientific scrutiny, interdisciplinary research and collaborative development.
+
+The project is currently a research and engineering proposal, not a validated operational system.
+
+License: Creative Commons Attribution 4.0 International.
 **Architectural Originator:** Damien Reeka (DR)  
 **Proposed Research Steward:** Cathedral Lab  
 **Status:** Independent Research and Architectural Proposal  

@@ -137,5 +137,10 @@ Cathedral / Cathedral Lab
 Australia
 
 **Contact:** eterna.assembly@gmail.com
+Associated research publication:
+https://doi.org/10.5281/zenodo.24571044
+
+Author ORCID:
+https://orcid.org/0009-0002-7164-608X
 
 *The fog was expected. The pattern holds
